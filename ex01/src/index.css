@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  width: 1000px;
+}
+
+table {
+  width: 1010px;
+  height: 250px;
+  text-align: center;
+}
+
+td {
+  color: rgb(7, 9, 9);
+  background-color: rgb(68, 101, 232);
+  width: 70px;
+  border-color: rgb(253, 249, 249);
+}
+
+td:hover {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 620px) {
+  h2 {
+    align-self: center;
+  }
+  #text-area {
+    width: 475px;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    align-self: center;
+  }
+  #text-area {
+    width: 530px;
+  }
+  table {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  h2 {
+    align-self: center;
+  }
+  #text-area {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  h2 {
+    align-self: center;
+  }
+  #text-area {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  h2 {
+    align-self: center;
+  }
+  #text-area {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+}
